@@ -1,4 +1,4 @@
----- qbsp / ericw-tools v0.18.1 ----
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
 Input file: testbed.map
 Output file: testbed.bsp
 
@@ -7,9 +7,9 @@ Output file: testbed.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
            36 faces
             6 brushes
-            2 entities
-            5 unique texnames
-           30 texinfo
+            1 entities
+            1 unique texnames
+            6 texinfo
 
 Opened WAD: I:/quake-leveldesign-starterkit/wads/id1.wad
 Processing hull 0...
@@ -18,8 +18,8 @@ Processing hull 0...
            12 planes
 ---- CSGFaces ----
            36 brushfaces
-           32 csgfaces
-           24 mergedfaces
+           36 csgfaces
+           36 mergedfaces
 ---- SolidBSP ----
            24 split nodes
             6 solid leafs
@@ -29,12 +29,12 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          128 leaffaces
-          128 nodefaces
+           96 leaffaces
+           96 nodefaces
 ---- Portalize ----
            19 vis leafs
            19 vis clusters
-           48 vis portals
+           40 vis portals
 ---- FillOutside ----
 *** WARNING 19: No entities in empty space -- no filling performed (hull 0)
 ---- MakeFaceEdges ----
@@ -45,20 +45,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote testbed.bsp
-           34 planes              680
-          168 vertexes           2016
+           39 planes              780
+           96 vertexes           1152
            24 nodes               576
-           20 texinfo             800
-          128 faces              2560
-           48 clipnodes           384
+            6 texinfo             240
+           96 faces              1920
+          112 clipnodes           896
            20 leafs               560
-          128 marksurfaces        256
-          512 surfedges          2048
-          309 edges              1236
-            5 textures          27424
+           96 marksurfaces        192
+          384 surfedges          1536
+          217 edges               868
+            1 textures           5488
               lightdata             0
               visdata               0
               entdata             102
 
-0.035 seconds elapsed
-Peak memory usage: 493588 (482.0k)
+0.043 seconds elapsed
+Peak memory usage: 582312 (0.6M)

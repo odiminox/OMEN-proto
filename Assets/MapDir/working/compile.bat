@@ -24,6 +24,3 @@ copy testbed.bsp I:\OMEN\Assets\MapDir\id1\maps
 copy testbed.pts I:\OMEN\Assets\MapDir\id1\maps
 copy testbed.lit I:\OMEN\Assets\MapDir\id1\maps
 pause
-cd\
-cd I:\OMEN\Assets\Tools\quake-leveldesign-starterkit
-quakespasm-spiked-win64  +map testbed

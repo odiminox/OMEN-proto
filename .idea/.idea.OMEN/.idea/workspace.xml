@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ddb7f8-d9e8-43e9-a6ea-4909bad06b97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/LICENSE-embree.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bspinfo.exe" beforeDir="false" />
@@ -41,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/tbbmalloc.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/vis.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
       <workItem from="1599753351278" duration="1955000" />
       <workItem from="1601032627468" duration="41000" />
       <workItem from="1612613227492" duration="2956000" />
-      <workItem from="1612623129158" duration="788000" />
+      <workItem from="1612623129158" duration="1391000" />
     </task>
     <servers />
   </component>
