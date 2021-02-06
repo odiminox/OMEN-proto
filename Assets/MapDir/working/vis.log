@@ -3,19 +3,16 @@ running with 24 threads
 testlevel = 4
 LoadBSPFile: 'testbed.bsp'
 BSP is version 29
-    19 leafs
-    40 portals
+     5 leafs
+     6 portals
 Calculating Base Vis:
-0....1....2....3....4....5....6....7....8....9....
+0....1....2....3....4....5....6....7....8....9
 Calculating Full Vis:
-0....1....2....3....4....5....6....7....8....9....
+0....1....2....3....4....5....6....7....8....9
 WARNING: Leaf portals saw into leaf (0)
-WARNING: Leaf portals saw into leaf (4)
-WARNING: Leaf portals saw into leaf (14)
-WARNING: Leaf portals saw into leaf (18)
-average leafs visible: 15
+average leafs visible: 5
 c_noclip: 0
-c_chains: 1135
-visdatasize:59  compressed from 57
+c_chains: 33
+visdatasize:5  compressed from 5
 Writing testbed.bsp as BSP version 29
   0.1 seconds elapsed

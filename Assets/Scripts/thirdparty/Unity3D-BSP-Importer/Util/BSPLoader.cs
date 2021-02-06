@@ -515,7 +515,7 @@ namespace BSPImporter {
 						faceGameObject.transform.parent = textureGameObject.transform;
 						faceGameObject.transform.localPosition = Vector3.zero;
 						if (mesh.normals.Length == 0 || mesh.normals[0] == Vector3.zero) {
-							//mesh.RecalculateNormals();
+							mesh.RecalculateNormals();
 						}
 						mesh.AddMeshToGameObject(new Material[] { material }, faceGameObject);
 #if UNITY_EDITOR

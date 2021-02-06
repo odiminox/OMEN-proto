@@ -5,38 +5,60 @@ Output file: testbed.bsp
 ---- LoadMapFile ----
 *** WARNING 05: No info_player_start entity in level
 *** WARNING 06: No info_player_deathmatch entities in level
-           36 faces
-            6 brushes
-            1 entities
-            1 unique texnames
-            6 texinfo
+           60 faces
+           10 brushes
+            5 entities
+            4 unique texnames
+           34 texinfo
 
 Opened WAD: I:/quake-leveldesign-starterkit/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-            6 brushes
-           12 planes
+           10 brushes
+           26 planes
 ---- CSGFaces ----
-           36 brushfaces
-           36 csgfaces
-           36 mergedfaces
+           60 brushfaces
+           76 csgfaces
+           63 mergedfaces
 ---- SolidBSP ----
-           24 split nodes
-            6 solid leafs
-           19 empty leafs
+           84 split nodes
+           27 solid leafs
+           58 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-           96 leaffaces
-           96 nodefaces
+          177 leaffaces
+          170 nodefaces
 ---- Portalize ----
-           19 vis leafs
-           19 vis clusters
-           40 vis portals
+           58 vis leafs
+           58 vis clusters
+          140 vis portals
 ---- FillOutside ----
-*** WARNING 19: No entities in empty space -- no filling performed (hull 0)
+           53 outleafs
+---- MergeAll ----
+           23 mergefaces
+---- SolidBSP ----
+           21 split nodes
+           17 solid leafs
+            5 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+           51 leaffaces
+           44 nodefaces
+---- Portalize ----
+            5 vis leafs
+            5 vis clusters
+            6 vis portals
+---- Tjunc ----
+           52 world edges
+          162 edge points
+           42 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -45,20 +67,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote testbed.bsp
-           39 planes              780
-           96 vertexes           1152
-           24 nodes               576
-            6 texinfo             240
-           96 faces              1920
-          112 clipnodes           896
-           20 leafs               560
-           96 marksurfaces        192
-          384 surfedges          1536
-          217 edges               868
-            1 textures           5488
+           62 planes             1240
+           65 vertexes            780
+           21 nodes               504
+           14 texinfo             560
+           44 faces               880
+          217 clipnodes          1736
+            6 leafs               168
+           51 marksurfaces        102
+          218 surfedges           872
+          110 edges               440
+            4 textures          21940
               lightdata             0
               visdata               0
-              entdata             102
+              entdata             346
 
-0.035 seconds elapsed
-Peak memory usage: 582312 (0.6M)
+0.069 seconds elapsed
+Peak memory usage: 744742 (0.7M)

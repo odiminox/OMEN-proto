@@ -7,16 +7,8 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="MapDir" t="Include">
-          <e p="id1" t="Include">
-            <e p="maps" t="Include">
-              <e p="Changelog.txt" t="Include" />
-              <e p="gpl_v3.txt" t="Include" />
-              <e p="LICENSE-embree.txt" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
+          <e p="DoubleFacedMesh.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="thirdparty" t="Include">
             <e p="Unity3D-BSP-Importer" t="Include">
@@ -128,6 +120,13 @@
               <e p="release_readme.txt" t="Include" />
             </e>
             <e p="Tools" t="Include">
+              <e p="ericw-tools" t="Include">
+                <e p="Bin" t="Include">
+                  <e p="Changelog.txt" t="Include" />
+                  <e p="gpl_v3.txt" t="Include" />
+                  <e p="LICENSE-embree.txt" t="Include" />
+                </e>
+              </e>
               <e p="Map2Curve_v0.7" t="Include">
                 <e p="Changelog.txt" t="Include" />
                 <e p="DEFAULTS.txt" t="Include" />

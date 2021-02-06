@@ -20,21 +20,189 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ddb7f8-d9e8-43e9-a6ea-4909bad06b97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0basebtn.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0basebtn.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0planet.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0planet.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0slip.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0slip.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0slipbot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0slipbot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0sliptop.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/+0sliptop.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/+0sliptop.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/+0sliptop.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/id1/maps/testbed.bsp" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/id1/maps/testbed.bsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/id1/maps/testbed.map" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/id1/maps/testbed.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/light.log" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/light.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/testbed.bsp" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/testbed.bsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/testbed.log" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/testbed.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/testbed.map" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/testbed.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/testbed.prt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/testbed.prt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapDir/working/vis.log" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapDir/working/vis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/LICENSE-embree.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bspinfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bsputil.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/embree.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/freeglut.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/gpl_v3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/light.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/qbsp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/tbb.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/tbbmalloc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/vis.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/LICENSE-embree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/LICENSE-embree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bspinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bspinfo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bsputil.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bsputil.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/gpl_v3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/gpl_v3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/light.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/light.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/qbsp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/qbsp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/vis.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/vis.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/afloor1_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/afloor1_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/azwall3_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/azwall3_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/basebutn3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/basebutn3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ceiling1_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ceiling1_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ceiling5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ceiling5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/church1_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/church1_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city1_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city1_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city1_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city1_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city6_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/city6_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/comp1_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop3_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop3_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop3_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop3_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop4_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/cop4_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/crate0_side.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/crate0_side.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/crate0_top.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/crate0_top.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/door02_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/door02_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ecop1_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/edoor01_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/edoor01_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground1_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground1_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground1_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ground1_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/key01_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/key01_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_side1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_side1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_stem.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_stem.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_top1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/plat_top1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sfloor4_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sfloor4_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sfloor4_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sfloor4_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sky4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sky4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slime0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slime0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slip1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slip1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slipbotsd.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slipbotsd.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sliplite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sliplite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slipside.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/slipside.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sliptopsd.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sliptopsd.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/switch_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/switch_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech01_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech04_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech07_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech07_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech08_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech08_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech09_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech09_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech10_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech10_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech10_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech10_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech11_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tech11_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/teleport.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/teleport.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight07.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight07.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight08.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight08.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight11.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tlight11.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/trigger.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/trigger.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall1_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall1_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall2_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall3_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall3_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall5_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall5_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall5_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twall5_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/uwall1_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/uwall1_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/water0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/water0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/z_exit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/z_exit.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +212,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoubleFacedMesh.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DoubleFacedMesh.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1hKILLIfBMJQVmG9qJLqepEo5A7" />
@@ -74,10 +246,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30852">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="30852" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -96,6 +268,7 @@
       <workItem from="1601032627468" duration="41000" />
       <workItem from="1612613227492" duration="2956000" />
       <workItem from="1612623129158" duration="1391000" />
+      <workItem from="1612628611697" duration="1493000" />
     </task>
     <servers />
   </component>
@@ -118,5 +291,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/MeshUtils.cs</url>
+          <line>400</line>
+          <properties documentPath="I:\OMEN\Assets\Scripts\thirdparty\Unity3D-BSP-Importer\Util\MeshUtils.cs" initialLine="400" containingFunctionPresentation="method 'CreateMoHAATerrainMesh'">
+            <startOffsets>
+              <option value="16959" />
+            </startOffsets>
+            <endOffsets>
+              <option value="16985" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
