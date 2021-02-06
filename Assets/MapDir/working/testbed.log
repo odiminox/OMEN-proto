@@ -60,5 +60,5 @@ Wrote testbed.bsp
               visdata               0
               entdata             102
 
-0.043 seconds elapsed
+0.035 seconds elapsed
 Peak memory usage: 582312 (0.6M)
