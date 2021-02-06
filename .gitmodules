@@ -1,0 +1,3 @@
+[submodule "OMEN/Assets/Scripts/thirdparty/Unity3D-BSP-Importer"]
+	path = OMEN/Assets/Scripts/thirdparty/Unity3D-BSP-Importer
+	url = https://github.com/wfowler1/Unity3D-BSP-Importer.git
