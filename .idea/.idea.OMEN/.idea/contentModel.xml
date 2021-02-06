@@ -7,6 +7,15 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="MapDir" t="Include">
+          <e p="id1" t="Include">
+            <e p="maps" t="Include">
+              <e p="Changelog.txt" t="Include" />
+              <e p="gpl_v3.txt" t="Include" />
+              <e p="LICENSE-embree.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="thirdparty" t="Include">
@@ -18,6 +27,79 @@
                 <e p="UnityEngineVertexExtensions.cs" t="Include" />
               </e>
               <e p="external" t="Include">
+                <e p="LibBSP" t="Include">
+                  <e p="LibBSP" t="Include">
+                    <e p="Properties" t="Include">
+                      <e p="AssemblyInfo.cs" t="Include" />
+                    </e>
+                    <e p="Source" t="Include">
+                      <e p="Attributes" t="Include">
+                        <e p="CountAttribute.cs" t="Include" />
+                        <e p="IndexAttribute.cs" t="Include" />
+                      </e>
+                      <e p="Extensions" t="Include">
+                        <e p="ColorExtensions.cs" t="Include" />
+                        <e p="CustomAttributeExtensions.cs" t="Include" />
+                        <e p="PlaneExtensions.cs" t="Include" />
+                        <e p="StringExtensions.cs" t="Include" />
+                        <e p="Vector2Extensions.cs" t="Include" />
+                        <e p="Vector3Extensions.cs" t="Include" />
+                        <e p="Vector4Extensions.cs" t="Include" />
+                        <e p="VertexExtensions.cs" t="Include" />
+                      </e>
+                      <e p="Structs" t="Include">
+                        <e p="BSP" t="Include">
+                          <e p="Brush.cs" t="Include" />
+                          <e p="BrushSide.cs" t="Include" />
+                          <e p="BSP.cs" t="Include" />
+                          <e p="Cubemap.cs" t="Include" />
+                          <e p="Displacement.cs" t="Include" />
+                          <e p="DisplacementVertex.cs" t="Include" />
+                          <e p="Edge.cs" t="Include" />
+                          <e p="Face.cs" t="Include" />
+                          <e p="Leaf.cs" t="Include" />
+                          <e p="LODTerrain.cs" t="Include" />
+                          <e p="Lumps" t="Include">
+                            <e p="GameLump.cs" t="Include" />
+                            <e p="StaticProps.cs" t="Include" />
+                            <e p="Textures.cs" t="Include" />
+                          </e>
+                          <e p="Model.cs" t="Include" />
+                          <e p="Node.cs" t="Include" />
+                          <e p="Patch.cs" t="Include" />
+                          <e p="StaticModel.cs" t="Include" />
+                          <e p="StaticProp.cs" t="Include" />
+                          <e p="Texture.cs" t="Include" />
+                          <e p="TextureData.cs" t="Include" />
+                        </e>
+                        <e p="Common" t="Include">
+                          <e p="Entity.cs" t="Include" />
+                          <e p="ILumpObject.cs" t="Include" />
+                          <e p="Lumps" t="Include">
+                            <e p="Entities.cs" t="Include" />
+                            <e p="ILump.cs" t="Include" />
+                            <e p="Lump.cs" t="Include" />
+                            <e p="NumList.cs" t="Include" />
+                          </e>
+                          <e p="TextureInfo.cs" t="Include" />
+                          <e p="Vertex.cs" t="Include" />
+                        </e>
+                        <e p="MAP" t="Include">
+                          <e p="MAPBrush.cs" t="Include" />
+                          <e p="MAPBrushSide.cs" t="Include" />
+                          <e p="MAPDisplacement.cs" t="Include" />
+                          <e p="MAPPatch.cs" t="Include" />
+                          <e p="MAPTerrainEF2.cs" t="Include" />
+                          <e p="MAPTerrainMoHAA.cs" t="Include" />
+                        </e>
+                      </e>
+                      <e p="Util" t="Include">
+                        <e p="BSPReader.cs" t="Include" />
+                        <e p="Revision.cs" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
                 <e p="Paloma" t="Include">
                   <e p="TargaImage.cs" t="Include" />
                 </e>
@@ -29,6 +111,99 @@
                 </e>
                 <e p="MeshUtils.cs" t="Include" />
               </e>
+            </e>
+          </e>
+        </e>
+        <e p="Tools" t="Include">
+          <e p="quake-leveldesign-starterkit" t="Include">
+            <e p="history.txt" t="Include" />
+            <e p="LICENSE.txt" t="Include" />
+            <e p="Quakespasm-Music.txt" t="Include" />
+            <e p="Quakespasm-Spiked-Revision.txt" t="Include" />
+            <e p="Quakespasm-Spiked.txt" t="Include" />
+            <e p="Quakespasm.txt" t="Include" />
+            <e p="Source" t="Include">
+              <e p="e2m10.txt" t="Include" />
+              <e p="gnu.txt" t="Include" />
+              <e p="release_readme.txt" t="Include" />
+            </e>
+            <e p="Tools" t="Include">
+              <e p="Map2Curve_v0.7" t="Include">
+                <e p="Changelog.txt" t="Include" />
+                <e p="DEFAULTS.txt" t="Include" />
+                <e p="README.txt" t="Include" />
+                <e p="Templates" t="Include">
+                  <e p="Composition" t="Include">
+                    <e p="profile1.txt" t="Include" />
+                    <e p="profile2.txt" t="Include" />
+                    <e p="profile3.txt" t="Include" />
+                  </e>
+                  <e p="Hallway" t="Include">
+                    <e p="hallway.txt" t="Include" />
+                  </e>
+                  <e p="HollowTechPipe" t="Include">
+                    <e p="template2.txt" t="Include" />
+                  </e>
+                  <e p="TecBridge" t="Include">
+                    <e p="Source" t="Include">
+                      <e p="bridge.txt" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Version0_6" t="Include">
+                    <e p="Heightmode" t="Include">
+                      <e p="Heightmode.txt" t="Include" />
+                    </e>
+                    <e p="Spline" t="Include">
+                      <e p="ExtrudeSpline.txt" t="Include" />
+                    </e>
+                    <e p="Texmode" t="Include">
+                      <e p="texmode.txt" t="Include" />
+                    </e>
+                  </e>
+                  <e p="WaterPipe" t="Include">
+                    <e p="Source_H" t="Include">
+                      <e p="pipe_hor.txt" t="Include" />
+                    </e>
+                    <e p="Source_V" t="Include">
+                      <e p="pipe_ver.txt" t="Include" />
+                    </e>
+                  </e>
+                  <e p="XenAlley" t="Include">
+                    <e p="Source" t="Include">
+                      <e p="xenwall.txt" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Tutorials" t="Include">
+                  <e p="[Tutorial] 01 Simple Curve Creation" t="Include">
+                    <e p="Scene.txt" t="Include" />
+                  </e>
+                  <e p="[Tutorial] 02 Detail Objects" t="Include">
+                    <e p="Scene.txt" t="Include" />
+                  </e>
+                  <e p="[Tutorial] 03 Circle Duplication" t="Include">
+                    <e p="Scene.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="WAD" t="Include">
+                  <e p="WADList.txt" t="Include" />
+                </e>
+              </e>
+              <e p="ne_q1spCompilingGui" t="Include">
+                <e p="ne_q1spCompilingGui103.txt" t="Include" />
+              </e>
+              <e p="texmex" t="Include">
+                <e p="README.txt" t="Include" />
+                <e p="tips.txt" t="Include" />
+              </e>
+            </e>
+            <e p="trenchbroom" t="Include">
+              <e p="fonts" t="Include">
+                <e p="SIL Open Font License.txt" t="Include" />
+              </e>
+            </e>
+            <e p="wads" t="Include">
+              <e p="prototype.txt" t="Include" />
             </e>
           </e>
         </e>

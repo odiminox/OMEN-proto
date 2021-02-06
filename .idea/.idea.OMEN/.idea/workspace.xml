@@ -20,12 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ddb7f8-d9e8-43e9-a6ea-4909bad06b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OMEN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/LICENSE-embree.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bspinfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/bsputil.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/embree.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/freeglut.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/gpl_v3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/light.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/qbsp.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/tbb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/tbbmalloc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ericw-tools/bin/vis.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/quake-leveldesign-starterkit/tools/ne_q1spCompilingGui/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +52,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../Desktop/net.peeweek.gameplay-ingredients-master/Runtime/Managers/Implementations/ScreenshotManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/thirdparty/Unity3D-BSP-Importer/Util/BSPLoader.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1hKILLIfBMJQVmG9qJLqepEo5A7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,6 +64,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -86,6 +101,8 @@
       <updated>1599753342004</updated>
       <workItem from="1599753351278" duration="1955000" />
       <workItem from="1601032627468" duration="41000" />
+      <workItem from="1612613227492" duration="2956000" />
+      <workItem from="1612623129158" duration="788000" />
     </task>
     <servers />
   </component>

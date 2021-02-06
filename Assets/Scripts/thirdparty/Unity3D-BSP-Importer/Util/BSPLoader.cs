@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 using LibBSP;
+using UnityEngine.Rendering.Universal;
 
 namespace BSPImporter {
 
@@ -345,6 +346,7 @@ namespace BSPImporter {
 #if UNITY_EDITOR
 				if (!IsRuntime && (settings.assetSavingOptions & AssetSavingOptions.Materials) > 0) {
 					Directory.CreateDirectory(Path.GetDirectoryName(materialPath));
+					materialPath = materialPath.Replace("*", "");
 					AssetDatabase.CreateAsset(material, materialPath);
 				}
 #endif
@@ -513,7 +515,7 @@ namespace BSPImporter {
 						faceGameObject.transform.parent = textureGameObject.transform;
 						faceGameObject.transform.localPosition = Vector3.zero;
 						if (mesh.normals.Length == 0 || mesh.normals[0] == Vector3.zero) {
-							mesh.RecalculateNormals();
+							//mesh.RecalculateNormals();
 						}
 						mesh.AddMeshToGameObject(new Material[] { material }, faceGameObject);
 #if UNITY_EDITOR
