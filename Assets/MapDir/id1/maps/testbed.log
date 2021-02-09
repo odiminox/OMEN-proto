@@ -30,24 +30,52 @@ Processing hull 0...
             0 illusionary visblocker leafs
           177 leaffaces
           170 nodefaces
+---- Portalize ----
+           58 vis leafs
+           58 vis clusters
+          140 vis portals
+---- FillOutside ----
+           53 outleafs
+---- MergeAll ----
+           23 mergefaces
+---- SolidBSP ----
+           21 split nodes
+           17 solid leafs
+            5 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+           51 leaffaces
+           44 nodefaces
+---- Portalize ----
+            5 vis leafs
+            5 vis clusters
+            6 vis portals
+---- Tjunc ----
+           52 world edges
+          162 edge points
+           42 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 ---- WriteBSPFile ----
 Wrote ../../../../../MapDir/id1/maps/testbed.bsp
-           26 planes              520
-          218 vertexes           2616
-           84 nodes              2016
-           29 texinfo            1160
-          170 faces              3400
+           14 planes              280
+           65 vertexes            780
+           21 nodes               504
+           14 texinfo             560
+           44 faces               880
             0 clipnodes             0
-           59 leafs              1652
-          177 marksurfaces        354
-          680 surfedges          2720
-          444 edges              1776
+            6 leafs               168
+           51 marksurfaces        102
+          218 surfedges           872
+          110 edges               440
             4 textures          21940
               lightdata             0
               visdata               0
               entdata             417
 
-0.009 seconds elapsed
-Peak memory usage: 466036 (455.1k)
+0.023 seconds elapsed
+Peak memory usage: 539148 (0.5M)

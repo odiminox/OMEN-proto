@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using BSPImporter;
 using LibBSP;
 
@@ -40,6 +41,18 @@ public class BSPImporterWindow : EditorWindow {
 			DrawImportButton();
 		} EditorGUILayout.EndVertical();
 	}
+	
+	private void OnEntityCreated(BSPLoader.EntityInstance instance, List<BSPLoader.EntityInstance> targets)
+	{
+		if (instance.entity.ClassName == "light")
+		{
+			var light = instance.gameObject.AddComponent<Light>();
+			light.type = LightType.Point;
+			light.range = instance.entity.GetFloat("range");
+			light.intensity = instance.entity.GetFloat("intensity");
+		}
+		Debug.Log($"entity created: {instance.entity.ClassName}");
+	}
 
 	/// <summary>
 	/// Draws GUI elements for BSP Importer settings.
@@ -49,6 +62,7 @@ public class BSPImporterWindow : EditorWindow {
 			settings.path = "";
 			settings.meshCombineOptions = BSPLoader.MeshCombineOptions.PerEntity;
 			settings.curveTessellationLevel = 9;
+			settings.entityCreatedCallback = OnEntityCreated;
 		}
 		EditorGUILayout.BeginHorizontal(); {
 			settings.path = EditorGUILayout.TextField(new GUIContent("Import BSP file", "The path to a BSP file on the hard drive."), settings.path);
@@ -111,6 +125,7 @@ public class BSPImporterWindow : EditorWindow {
 			BSPLoader loader = new BSPLoader() {
 				settings = settings
 			};
+			loader.settings.entityCreatedCallback = OnEntityCreated;
 			loader.LoadBSP();
 		}
 	}

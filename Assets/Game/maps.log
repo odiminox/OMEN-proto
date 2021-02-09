@@ -1,0 +1,54 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: ../../../../../MapDir/id1/maps/functional.map
+Output file: ../../../../../Game/maps.bsp
+
+---- LoadMapFile ----
+*** WARNING 05: No info_player_start entity in level
+*** WARNING 06: No info_player_deathmatch entities in level
+           54 faces
+            9 brushes
+            1 entities
+            3 unique texnames
+           28 texinfo
+
+Opened WAD: I:/quake-leveldesign-starterkit/wads/id1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+            9 brushes
+           22 planes
+---- CSGFaces ----
+           54 brushfaces
+           66 csgfaces
+           53 mergedfaces
+---- SolidBSP ----
+           61 split nodes
+           19 solid leafs
+           43 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          154 leaffaces
+          150 nodefaces
+---- MakeFaceEdges ----
+---- GrowRegions ----
+---- WriteBSPFile ----
+Wrote ../../../../../Game/maps.bsp
+           22 planes              440
+          197 vertexes           2364
+           61 nodes              1464
+           25 texinfo            1000
+          150 faces              3000
+            0 clipnodes             0
+           44 leafs              1232
+          154 marksurfaces        308
+          600 surfedges          2400
+          391 edges              1564
+            3 textures          16456
+              lightdata             0
+              visdata               0
+              entdata             102
+
+0.009 seconds elapsed
+Peak memory usage: 412980 (403.3k)
