@@ -131,10 +131,69 @@
 ( -224 224 240 ) ( -223 224 240 ) ( -224 224 241 ) +0sliptop [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 224 96 272 ) ( 224 95 272 ) ( 224 96 273 ) +0sliptop [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+// brush 14
+{
+( -48 -48 -16 ) ( -48 -47 -16 ) ( -48 -48 -15 ) bricka2_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -48 -48 -16 ) ( -48 -48 -15 ) ( -47 -48 -16 ) bricka2_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -48 -48 -48 ) ( -47 -48 -48 ) ( -48 -47 -48 ) bricka2_2 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 48 48 272 ) ( 48 49 272 ) ( 49 48 272 ) bricka2_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 48 48 64 ) ( 49 48 64 ) ( 48 48 65 ) bricka2_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 48 48 64 ) ( 48 48 65 ) ( 48 49 64 ) bricka2_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
 }
 // entity 1
 {
 "classname" "info_player_start"
 "origin" "432 0 8"
 "angle" "180"
+}
+// entity 2
+{
+"classname" "light"
+"origin" "8 -168 224"
+"intensity" "10"
+"range" "10"
+"targetname" "pointlight"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "8 168 224"
+"intensity" "10"
+"range" "10"
+"targetname" "pointlight"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-168 -8 224"
+"intensity" "10"
+"range" "10"
+"targetname" "pointlight"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "232 -8 144"
+"intensity" "5"
+"range" "5"
+"targetname" "pointlight"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "488 -8 144"
+"intensity" "5"
+"range" "5"
+"targetname" "pointlight"
+}
+// entity 7
+{
+"classname" "light_fluoro"
+"origin" "-8 120 -8"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "40 72 -8"
 }

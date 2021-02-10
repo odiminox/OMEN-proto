@@ -1,17 +1,17 @@
 ﻿using System.Collections.Generic;
-using OMEN.Core.Entity;
 using OMEN.Core.Entity.Lighting;
 using OMEN.Core.Exceptions;
+using OMEN.Factory;
 
-namespace OMEN.Factory
+namespace OMEN.Core.Factory
 {
     public class LightFactory : IEntityFactory
     {
-        private List<Entity> lights = new List<Entity>();
+        private List<Entity.Entity> lights = new List<Entity.Entity>();
         
-        public Entity CreateEntityFromBsp(LibBSP.Entity bspEntity)
+        public Entity.Entity CreateEntityFromBsp(LibBSP.Entity bspEntity)
         {
-            Entity createdEntity = null;
+            Entity.Entity createdEntity = null;
             string entityName = bspEntity.Name;
             
             switch (entityName)
@@ -40,7 +40,7 @@ namespace OMEN.Factory
         {
         }
 
-        private Entity CreatePointLight(float range, float intensity)
+        private Entity.Entity CreatePointLight(float range, float intensity)
         {
             EntityPointLight entity = new EntityPointLight
             {

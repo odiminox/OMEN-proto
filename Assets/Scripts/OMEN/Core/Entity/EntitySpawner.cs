@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using BSPImporter;
+using OMEN.Core.Factory;
 using OMEN.Factory;
 using UnityEngine;
 
