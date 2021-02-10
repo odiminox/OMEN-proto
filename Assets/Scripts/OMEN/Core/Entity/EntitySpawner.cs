@@ -25,6 +25,7 @@ namespace OMEN.Core.Entity
                 {
                     entity = _lightFactory.CreateEntityFromBsp(instance.entity);
                     entity.WorldObject = instance.gameObject;
+                    entity.id = instance.gameObject.GetInstanceID();
                     entity.InitialiseComponents();
                     break;
                 }

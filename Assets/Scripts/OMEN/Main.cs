@@ -22,6 +22,10 @@ namespace OMEN
             InitialiseBspMapLoader();
             
             Logger.LogInfo("Main: " + CoreStatusCodes.InfoCoreInitialised);
+            
+            _bspMapLoader.SetMapName("functional.bsp");
+            _bspMapLoader.AssignSettings();
+            _bspMapLoader.LoadMap();
         }
 
         private void InitialiseModLoader()

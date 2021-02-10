@@ -153,6 +153,7 @@
 "origin" "8 -168 224"
 "intensity" "10"
 "range" "10"
+"targetname" "pointlight"
 }
 // entity 3
 {
@@ -160,6 +161,7 @@
 "origin" "8 168 224"
 "intensity" "10"
 "range" "10"
+"targetname" "pointlight"
 }
 // entity 4
 {
@@ -167,6 +169,7 @@
 "origin" "-168 -8 224"
 "intensity" "10"
 "range" "10"
+"targetname" "pointlight"
 }
 // entity 5
 {
@@ -174,6 +177,7 @@
 "origin" "232 -8 144"
 "intensity" "5"
 "range" "5"
+"targetname" "pointlight"
 }
 // entity 6
 {
@@ -181,4 +185,5 @@
 "origin" "488 -8 144"
 "intensity" "5"
 "range" "5"
+"targetname" "pointlight"
 }
