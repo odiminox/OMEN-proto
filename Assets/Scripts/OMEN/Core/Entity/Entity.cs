@@ -1,6 +1,6 @@
 ﻿namespace OMEN.Core.Entity
 {
-    public class Entity : IEntity
+    public class Entity
     {
         
     }
