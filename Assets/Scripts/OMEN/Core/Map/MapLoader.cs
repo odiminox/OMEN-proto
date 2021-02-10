@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using BSPImporter;
 using OMEN.Core.Entity;
+using OMEN.Core.Exceptions;
 
 namespace OMEN.Core.Map
 {
@@ -14,14 +12,11 @@ namespace OMEN.Core.Map
         protected BSPLoader.Settings settings;
 
         private EntitySpawner _entitySpawner;
+        private ModLoader.ModLoader _modLoader;
         
         public MapLoader()
         {
             
-        }
-
-        public void AssignSettings()
-        {
         }
     }
 }

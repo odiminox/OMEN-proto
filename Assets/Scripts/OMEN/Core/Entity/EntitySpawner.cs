@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace OMEN.Core.Entity
 {
-    public class EntitySpawner : MonoBehaviour
+    public class EntitySpawner
     {
         public void OnEntityCreated(BSPLoader.EntityInstance instance, List<BSPLoader.EntityInstance> targets)
         {
