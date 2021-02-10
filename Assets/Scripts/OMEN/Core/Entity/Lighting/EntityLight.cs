@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 
-namespace OMEN.Core.Entity
+namespace OMEN.Core.Entity.Lighting
 {
-    public class EntityLight : IEntity
+    public class EntityLight : Entity
     {
-        private GameObject _gameObject;
         private LightType _lightType;
     }
 }

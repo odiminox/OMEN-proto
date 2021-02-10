@@ -2,8 +2,9 @@
 
 namespace OMEN.Factory
 {
-    public interface IFactory
+    public interface IEntityFactory
     {
-        public IEntity CreateEntity(string entityName);
+        public Entity CreateEntityFromBsp(LibBSP.Entity bspEntity);
+        public void DestroyEntity(int id);
     }
 }

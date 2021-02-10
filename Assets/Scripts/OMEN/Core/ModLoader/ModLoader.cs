@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using UnityEngine;
 
 using OMEN.Core.Exceptions;
@@ -25,11 +26,13 @@ namespace OMEN.Core.ModLoader
         public ModLoader()
         {
             FindModDir();
+            ValidateDirectories();
         }
         
         private void FindModDir()
         {
             // TODO Add support for multiple directories Game_1 Game_2 and load highest numerical value
+            // TODO ensure that we load the internal Game directory before the ones in the install folder
             var dataPath = Application.dataPath;
 
             _modDirRootPath = string.Format($"{dataPath}/Game");
@@ -55,7 +58,31 @@ namespace OMEN.Core.ModLoader
             // Assets/bin/mats - generated .mat files after BSPLoader imports .bsp file into game
             GeneratedMaterialsPath = "Assets/bin/mat";
 
+            
             // TODO do other paths
+        }
+
+        private void ValidateDirectories()
+        {
+            if (!Directory.Exists(_modDirRootPath))
+            {
+                throw new ModDirectoryException(_modDirRootPath);
+            }
+            
+            if (!Directory.Exists(MapsPath))
+            {
+                throw new ModDirectoryException(MapsPath);
+            }
+            
+            if (!Directory.Exists(TexturesPath))
+            {
+                throw new ModDirectoryException(TexturesPath);
+            }
+            
+            if (!Directory.Exists(GeneratedMaterialsPath))
+            {
+                throw new ModDirectoryException(GeneratedMaterialsPath);
+            }
         }
     }
 }

@@ -15,6 +15,16 @@ namespace OMEN.Core.Exceptions
         public ModLoaderPathException(string message) : base(CoreStatusCodes.ErrorRootPath, message) { }
     }
     
+    public class ModDirectoryException : OMENException
+    {
+        public ModDirectoryException(string message) : base(CoreStatusCodes.ErrorModDirectory, message) { }
+    }
+    
+    public class FactoryInvalidType : OMENException
+    {
+        public FactoryInvalidType(string message) : base(CoreStatusCodes.ErrorInvalidFactoryType, message) { }
+    }
+    
     public class ModLoaderInitialisedException : OMENException
     {
         public ModLoaderInitialisedException () : base(CoreStatusCodes.ErrorModLoaderInitialised) { }

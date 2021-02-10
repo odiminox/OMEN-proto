@@ -3,6 +3,7 @@ using OMEN.Core.Entity;
 using OMEN.Core.Exceptions;
 using OMEN.Core.Map.BSP;
 using OMEN.Core.ModLoader;
+using OMEN.StatusHandling;
 using UnityEngine;
 using Logger = OMEN.Logging.Logger;
 
@@ -20,7 +21,7 @@ namespace OMEN
             InitialiseEntitySpawner();
             InitialiseBspMapLoader();
             
-            Logger.LogInfo("Main: Core systems have initialised");
+            Logger.LogInfo("Main: " + CoreStatusCodes.InfoCoreInitialised);
         }
 
         private void InitialiseModLoader()
@@ -33,9 +34,13 @@ namespace OMEN
             {
                 Logger.LogError("Main: " + e.Message);
             }
+            catch (ModDirectoryException e)
+            {
+                Logger.LogError("Main: " + e.Message);
+            }
             catch (Exception e)
             {
-                Logger.LogError("Main: UNKNOWN EXCEPTION " + e.Message);
+                Logger.LogError($"Main: {CoreStatusCodes.ErrorUnknown} {e.Message}");
             }
         }
 
@@ -68,7 +73,7 @@ namespace OMEN
             }
             catch (Exception e)
             {
-                Logger.LogError("Main: UNKNOWN EXCEPTION " + e.Message);
+                Logger.LogError($"Main: {CoreStatusCodes.ErrorUnknown} {e.Message}");
             }
         }
 
