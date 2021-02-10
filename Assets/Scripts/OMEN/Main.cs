@@ -6,6 +6,7 @@ using OMEN.Core.Map.BSP;
 using OMEN.Core.ModLoader;
 using OMEN.StatusHandling;
 using UnityEngine;
+using Whilefun.FPEKit;
 using Logger = OMEN.Logging.Logger;
 
 namespace OMEN
@@ -14,7 +15,10 @@ namespace OMEN
     {
         [SerializeField]
         private OMENGraphics _graphics;
-        
+
+        [SerializeField]
+        private GameObject _playerInteractionCore;
+
         private ModLoader _modLoader;
         private EntitySpawner _entitySpawner;
         private BSPMapLoader _bspMapLoader;
@@ -26,10 +30,20 @@ namespace OMEN
             InitialiseBspMapLoader();
             
             Logger.LogInfo("Main: " + CoreStatusCodes.InfoCoreInitialised);
+
+            _bspMapLoader.SetMapLoadedCallback(OnMapLoadComplete);
             
+            // TODO Remove hard-coded name
             _bspMapLoader.SetMapName("functional.bsp");
             _bspMapLoader.AssignSettings();
             _bspMapLoader.LoadMap();
+        }
+
+        private void OnMapLoadComplete()
+        {
+            Debug.Log("Map Loaded!");
+
+            Instantiate(_playerInteractionCore);
         }
 
         private void InitialiseModLoader()

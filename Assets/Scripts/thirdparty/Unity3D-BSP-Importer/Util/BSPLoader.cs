@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 using LibBSP;
+using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
 namespace BSPImporter {
@@ -15,7 +16,8 @@ namespace BSPImporter {
 	/// </summary>
 	public class BSPLoader
 	{
-
+		public UnityAction MapLoadComplete;
+		
 		public Shader TargetShader;
 
 		/// <summary>
@@ -177,6 +179,11 @@ namespace BSPImporter {
 #else
 				Debug.LogError(e.ToString() + "\nat " + e.StackTrace);
 #endif
+			}
+
+			if (null != MapLoadComplete)
+			{
+				MapLoadComplete.Invoke();
 			}
 		}
 

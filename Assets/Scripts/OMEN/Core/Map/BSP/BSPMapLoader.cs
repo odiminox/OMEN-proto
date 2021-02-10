@@ -2,6 +2,7 @@
 using OMEN.Core.Entity;
 using OMEN.Core.Exceptions;
 using OMEN.Core.Graphics;
+using UnityEngine.Events;
 
 namespace OMEN.Core.Map.BSP
 {
@@ -38,6 +39,11 @@ namespace OMEN.Core.Map.BSP
             _modLoader = modLoader;
             _entitySpawner = entitySpawner;
             _omenGraphics = omenGraphics;
+        }
+
+        public void SetMapLoadedCallback(UnityAction callback)
+        {
+            _loader.MapLoadComplete += callback;
         }
 
         public void SetMapName(string name)
