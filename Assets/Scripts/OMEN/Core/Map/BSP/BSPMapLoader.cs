@@ -1,11 +1,13 @@
 ﻿using BSPImporter;
 using OMEN.Core.Entity;
 using OMEN.Core.Exceptions;
+using OMEN.Core.Graphics;
 
 namespace OMEN.Core.Map.BSP
 {
     public class BSPMapLoader
     {
+        private OMENGraphics _omenGraphics;
         private BSPLoader.Settings _settings;
         private string _mapName;
         private BSPLoader _loader;
@@ -14,7 +16,8 @@ namespace OMEN.Core.Map.BSP
         private EntitySpawner _entitySpawner;
 
         public BSPMapLoader(ModLoader.ModLoader modLoader,
-            EntitySpawner entitySpawner)
+            EntitySpawner entitySpawner,
+            OMENGraphics omenGraphics)
         {
             _settings = new BSPLoader.Settings();
             _loader = new BSPLoader();
@@ -30,8 +33,11 @@ namespace OMEN.Core.Map.BSP
                 throw new InvalidEntitySpawnerException();
             }
             
+            // TODO Error handling for omen graphics
+            
             _modLoader = modLoader;
             _entitySpawner = entitySpawner;
+            _omenGraphics = omenGraphics;
         }
 
         public void SetMapName(string name)
@@ -58,7 +64,8 @@ namespace OMEN.Core.Map.BSP
             _settings.curveTessellationLevel = 9;
             _settings.texturePath = _modLoader.TexturesPath;
             _settings.materialPath = _modLoader.GeneratedMaterialsPath;
-            
+
+            _loader.TargetShader = _omenGraphics.Shader;
             _loader.settings = _settings;
             _loader.settings.entityCreatedCallback = _entitySpawner.OnEntityCreated;
         }

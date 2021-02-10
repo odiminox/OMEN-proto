@@ -1,6 +1,7 @@
 ﻿using System;
 using OMEN.Core.Entity;
 using OMEN.Core.Exceptions;
+using OMEN.Core.Graphics;
 using OMEN.Core.Map.BSP;
 using OMEN.Core.ModLoader;
 using OMEN.StatusHandling;
@@ -11,6 +12,9 @@ namespace OMEN
 {
     public class Main : MonoBehaviour
     {
+        [SerializeField]
+        private OMENGraphics _graphics;
+        
         private ModLoader _modLoader;
         private EntitySpawner _entitySpawner;
         private BSPMapLoader _bspMapLoader;
@@ -57,7 +61,7 @@ namespace OMEN
         {
             try
             {
-                _bspMapLoader = new BSPMapLoader(_modLoader, _entitySpawner);
+                _bspMapLoader = new BSPMapLoader(_modLoader, _entitySpawner, _graphics);
             }
             catch (InvalidModLoaderException e)
             {

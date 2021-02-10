@@ -13,7 +13,10 @@ namespace BSPImporter {
 	/// <summary>
 	/// Class used for importing BSPs at runtime or edit-time.
 	/// </summary>
-	public class BSPLoader {
+	public class BSPLoader
+	{
+
+		public Shader TargetShader;
 
 		/// <summary>
 		/// Enum with options for combining <see cref="Mesh"/>es in the BSP import process.
@@ -279,11 +282,19 @@ namespace BSPImporter {
 		/// </summary>
 		/// <param name="textureName">Name of the <see cref="Texture2D"/> to load.</param>
 		public void LoadMaterial(string textureName) {
+			Shader def = null;
+			
+			def = TargetShader;
+			
+			if (!TargetShader)
+			{
 #if UNITY_5 || UNITY_5_3_OR_NEWER
-			Shader def = Shader.Find("Standard");
+				def = Shader.Find("PS1Shader");
 #else
-			Shader def = Shader.Find("Diffuse");
+				def = Shader.Find("Diffuse");
 #endif
+			}
+			
 			Shader fallbackShader = Shader.Find("VR/SpatialMapping/Wireframe");
 
 			string texturePath;
