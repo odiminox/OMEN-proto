@@ -29,11 +29,14 @@ namespace OMEN.Core.Entity
                 case "light":
                 {
                     entity = _lightFactory.CreateEntityFromBsp(instance.entity);
+                    entity.WorldObject = instance.gameObject;
+                    entity.id = instance.gameObject.GetInstanceID();
+                    entity.InitialiseComponents();
                     break;
                 }
                 case "actor":
                 {
-                    entity = _actorFactory.CreateEntityFromBsp(instance.entity);
+                    //entity = _actorFactory.CreateEntityFromBsp(instance.entity);
                     break;
                 }
             }
@@ -43,9 +46,6 @@ namespace OMEN.Core.Entity
                 //TODO throw exception
             }
             
-            entity.WorldObject = instance.gameObject;
-            entity.id = instance.gameObject.GetInstanceID();
-            entity.InitialiseComponents();
         }
     }
 }

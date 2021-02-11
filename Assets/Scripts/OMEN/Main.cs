@@ -36,7 +36,6 @@ namespace OMEN
 
             _bspMapLoader.SetMapLoadedCallback(OnMapLoadComplete);
             
-            // TODO Remove hard-coded name
             _bspMapLoader.SetMapName(_testMapName);
             _bspMapLoader.AssignSettings();
             _bspMapLoader.LoadMap();

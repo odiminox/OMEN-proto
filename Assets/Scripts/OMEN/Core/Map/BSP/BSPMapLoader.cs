@@ -66,13 +66,14 @@ namespace OMEN.Core.Map.BSP
         public void AssignSettings()
         {
             // TODO Replace these with configuration file defaults
-            _settings.meshCombineOptions = BSPLoader.MeshCombineOptions.PerEntity;
+            _settings.meshCombineOptions = BSPLoader.MeshCombineOptions.PerMaterial;
             _settings.curveTessellationLevel = 9;
             _settings.texturePath = _modLoader.TexturesPath;
             _settings.materialPath = _modLoader.GeneratedMaterialsPath;
 
             _loader.TargetShader = _omenGraphics.Shader;
             _loader.settings = _settings;
+            _loader.settings.meshCombineOptions = BSPLoader.MeshCombineOptions.PerEntity;
             _loader.settings.entityCreatedCallback = _entitySpawner.OnEntityCreated;
         }
 
