@@ -1,0 +1,70 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: ../../../../../MapDir/working/omen_basic.map
+Output file: ../../../../../Game/maps/omen_basic.bsp
+
+---- LoadMapFile ----
+*** WARNING 05: No info_player_start entity in level
+*** WARNING 06: No info_player_deathmatch entities in level
+           36 faces
+            6 brushes
+            1 entities
+            6 unique texnames
+            9 texinfo
+
+*** WARNING 00: No wad or _wad key exists in the worldmodel
+Processing hull 0...
+---- Brush_LoadEntity ----
+            6 brushes
+           12 planes
+---- CSGFaces ----
+           36 brushfaces
+           41 csgfaces
+           21 mergedfaces
+---- SolidBSP ----
+           24 split nodes
+            6 solid leafs
+           19 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+           87 leaffaces
+           87 nodefaces
+---- Portalize ----
+           19 vis leafs
+           19 vis clusters
+           44 vis portals
+---- FillOutside ----
+*** WARNING 19: No entities in empty space -- no filling performed (hull 0)
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture +0floorsw not found
+*** WARNING 16: Texture +1floorsw not found
+*** WARNING 16: Texture +2floorsw not found
+*** WARNING 16: Texture +0slipbot not found
+*** WARNING 16: Texture +0slip not found
+*** WARNING 16: Texture +1slip not found
+---- WriteBSPFile ----
+Wrote ../../../../../Game/maps/omen_basic.bsp
+           34 planes              680
+          107 vertexes           1284
+           24 nodes               576
+            8 texinfo             320
+           87 faces              1740
+           48 clipnodes           384
+           20 leafs               560
+           87 marksurfaces        174
+          348 surfedges          1392
+          205 edges               820
+            6 textures             28
+              lightdata             0
+              visdata               0
+              entdata              56
+
+0.014 seconds elapsed
+Peak memory usage: 370670 (362.0k)

@@ -222,6 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e21c0eba5a45548d60f5fc5ac805e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _testMapName: omen_map-test_1.bsp
   _graphics: {fileID: 1338279837}
   _playerInteractionCore: {fileID: 1904818688322854, guid: 61ee32032a51f264ab192daff55116f3,
     type: 3}

@@ -9,14 +9,22 @@ namespace OMEN.Core.Factory
     {
         private List<Entity.Entity> lights = new List<Entity.Entity>();
         
+        // TODO exception handling
         public Entity.Entity CreateEntityFromBsp(LibBSP.Entity bspEntity)
         {
             Entity.Entity createdEntity = null;
             string entityName = bspEntity.Name;
+            var lighttype = bspEntity.GetInt("lighttype");
             
-            switch (entityName)
+            switch (lighttype)
             {
-                case "pointlight":
+                // Default, currently unused
+                case 0:
+                {
+                    break;
+                }
+                // point light
+                case 1:
                 {
                     float range = bspEntity.GetFloat("range");
                     float intensity = bspEntity.GetFloat("intensity");

@@ -13,6 +13,9 @@ namespace OMEN
 {
     public class Main : MonoBehaviour
     {
+        [SerializeField] 
+        private string _testMapName;
+        
         [SerializeField]
         private OMENGraphics _graphics;
 
@@ -34,7 +37,7 @@ namespace OMEN
             _bspMapLoader.SetMapLoadedCallback(OnMapLoadComplete);
             
             // TODO Remove hard-coded name
-            _bspMapLoader.SetMapName("functional.bsp");
+            _bspMapLoader.SetMapName(_testMapName);
             _bspMapLoader.AssignSettings();
             _bspMapLoader.LoadMap();
         }
