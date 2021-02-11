@@ -2,6 +2,7 @@
 using OMEN.Core.Entity.Lighting;
 using OMEN.Core.Exceptions;
 using OMEN.Factory;
+using UnityEngine;
 
 namespace OMEN.Core.Factory
 {
@@ -13,18 +14,11 @@ namespace OMEN.Core.Factory
         public Entity.Entity CreateEntityFromBsp(LibBSP.Entity bspEntity)
         {
             Entity.Entity createdEntity = null;
-            string entityName = bspEntity.Name;
-            var lighttype = bspEntity.GetInt("lighttype");
+            string className = bspEntity.ClassName;
             
-            switch (lighttype)
+            switch (className)
             {
-                // Default, currently unused
-                case 0:
-                {
-                    break;
-                }
-                // point light
-                case 1:
+                case "point_light":
                 {
                     float range = bspEntity.GetFloat("range");
                     float intensity = bspEntity.GetFloat("intensity");
@@ -35,7 +29,7 @@ namespace OMEN.Core.Factory
                 }
                 default:
                 {
-                    throw new FactoryInvalidType(entityName);
+                    throw new FactoryInvalidType(className);
                 }
             }
             

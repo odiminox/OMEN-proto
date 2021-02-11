@@ -2599,7 +2599,7 @@ MonoBehaviour:
   HUDEnabled: 1
   reticleEnabled: 1
   interactionTextEnabled: 1
-  controlHintUIEnabled: 1
+  controlHintUIEnabled: 0
   audioDiaryUIEnabled: 1
   notificationUIEnabled: 1
   inactiveReticle: {fileID: 21300000, guid: bb37afb80302b534fb61599df7abe0a2, type: 3}

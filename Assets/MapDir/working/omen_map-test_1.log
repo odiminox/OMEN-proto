@@ -1,0 +1,180 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: omen_map-test_1.map
+Output file: omen_map-test_1.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          231 faces
+           38 brushes
+           17 entities
+            4 unique texnames
+           15 texinfo
+
+Opened WAD: I:/OMEN/Assets/Tools/quake-leveldesign-starterkit/wads/id1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           38 brushes
+           86 planes
+---- CSGFaces ----
+          231 brushfaces
+          280 csgfaces
+          222 mergedfaces
+---- SolidBSP ----
+          272 split nodes
+          101 solid leafs
+          172 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          623 leaffaces
+          513 nodefaces
+---- Portalize ----
+          172 vis leafs
+          172 vis clusters
+          469 vis portals
+---- FillOutside ----
+           90 outleafs
+---- MergeAll ----
+          170 mergefaces
+---- SolidBSP ----
+          108 split nodes
+           46 solid leafs
+           63 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          361 leaffaces
+          230 nodefaces
+---- Portalize ----
+           63 vis leafs
+           63 vis clusters
+          197 vis portals
+---- Tjunc ----
+          253 world edges
+          836 edge points
+          192 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+---- Brush_LoadEntity ----
+           38 brushes
+          201 planes
+---- CSGFaces ----
+          293 brushfaces
+          429 csgfaces
+          273 mergedfaces
+---- SolidBSP ----
+          273 split nodes
+           93 solid leafs
+          181 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          593 leaffaces
+          490 nodefaces
+---- Portalize ----
+---- FillOutside ----
+           84 outleafs
+---- SolidBSP ----
+          145 split nodes
+           68 solid leafs
+           78 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          451 leaffaces
+          351 nodefaces
+Processing hull 2...
+---- Brush_LoadEntity ----
+           38 brushes
+          293 planes
+---- CSGFaces ----
+          293 brushfaces
+          378 csgfaces
+          218 mergedfaces
+---- SolidBSP ----
+          247 split nodes
+           90 solid leafs
+          158 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          496 leaffaces
+          416 nodefaces
+---- Portalize ----
+---- FillOutside ----
+           84 outleafs
+---- SolidBSP ----
+          140 split nodes
+           75 solid leafs
+           66 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          353 leaffaces
+          271 nodefaces
+            0 texture frames added
+---- WriteBSPFile ----
+Wrote omen_map-test_1.bsp
+          177 planes             3540
+          313 vertexes           3756
+          108 nodes              2592
+           12 texinfo             480
+          230 faces              4600
+          285 clipnodes          2280
+           64 leafs              1792
+          361 marksurfaces        722
+         1090 surfedges          4360
+          546 edges              2184
+            4 textures          21940
+              lightdata             0
+              visdata               0
+              entdata            1590
+
+0.133 seconds elapsed
+
+Data type        CurrentNum    PeakNum      PeakMem
+BSPEntity              1589       1589         1589     1.6k
+BSPPlane                298        505        10100     9.9k
+BSPTex                21940      21940        21940    21.4k
+BSPVertex               313       1403        16836    16.4k
+BSPVis                    0          0            0         
+BSPNode                 108        108         2592     2.5k
+BSPTexinfo               15         15          600     0.6k
+BSPFace                 230        230         4600     4.5k
+BSPLight                  0          0            0         
+BSPClipnode             285        430         3440     3.4k
+BSPLeaf                  64         64         1792     1.8k
+BSPMarksurface          361        361          722     0.7k
+BSPEdge                 546       1637         6548     6.4k
+BSPSurfedge            1090       1090         4360     4.3k
+BSPModel                  1          1           80         
+Mapface                   0          0            0         
+Mapbrush                  0          0            0         
+Mapentity                 0          0            0         
+Winding                   0       1273       264756   258.6k
+Face                    230       1062      1733184     1.7M
+Plane                     0          0            0         
+Portal                    0       1272        61056    59.6k
+Surface                   0        121        11616    11.3k
+Node                    217        764       110016   107.4k
+Brush                     0         38         2736     2.7k
+Miptex                    0          0            0         
+World verts               0       1796        43104    42.1k
+World edges               0        898        71840    70.2k
+Hash verts                0          0            0         
+Other                 52584      71160        71160    69.5k
+Total                                       2170586     2.1M

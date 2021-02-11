@@ -13,6 +13,7 @@ namespace OMEN.Core.Entity.Lighting
             light.type = LightType.Point;
             light.range = Range;
             light.intensity = Intensity;
+            light.shadows = LightShadows.Soft;
         }
     }
 }

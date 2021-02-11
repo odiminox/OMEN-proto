@@ -3,62 +3,82 @@ Input file: ../../../../../MapDir/working/omen_map-test_1.map
 Output file: ../../../../../Game/maps/omen_map-test_1.bsp
 
 ---- LoadMapFile ----
-*** WARNING 05: No info_player_start entity in level
 *** WARNING 06: No info_player_deathmatch entities in level
-           72 faces
-           12 brushes
-            3 entities
-            7 unique texnames
-           21 texinfo
+           60 faces
+           10 brushes
+            9 entities
+            4 unique texnames
+           13 texinfo
 
 Opened WAD: I:/OMEN/Assets/Tools/quake-leveldesign-starterkit/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           12 brushes
-           28 planes
+           10 brushes
+           21 planes
 ---- CSGFaces ----
-           72 brushfaces
-           88 csgfaces
-           61 mergedfaces
+           60 brushfaces
+           57 csgfaces
+           52 mergedfaces
 ---- SolidBSP ----
-          104 split nodes
-           19 solid leafs
-           49 empty leafs
-           37 water leafs
+           40 split nodes
+           10 solid leafs
+           31 empty leafs
+            0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          240 leaffaces
-          238 nodefaces
+          199 leaffaces
+          154 nodefaces
 ---- Portalize ----
-           86 vis leafs
-           86 vis clusters
-          211 vis portals
+           31 vis leafs
+           31 vis clusters
+           73 vis portals
 ---- FillOutside ----
-*** WARNING 19: No entities in empty space -- no filling performed (hull 0)
+           18 outleafs
+---- MergeAll ----
+           33 mergefaces
+---- SolidBSP ----
+           20 split nodes
+           10 solid leafs
+           11 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          100 leaffaces
+           68 nodefaces
+---- Portalize ----
+           11 vis leafs
+           11 vis clusters
+           23 vis portals
+---- Tjunc ----
+           64 world edges
+          236 edge points
+           46 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote ../../../../../Game/maps/omen_map-test_1.bsp
-           38 planes              760
-          248 vertexes           2976
-          104 nodes              2496
-           16 texinfo             640
-          238 faces              4760
-           12 clipnodes            96
-           87 leafs              2436
-          240 marksurfaces        480
-          952 surfedges          3808
-          625 edges              2500
-            7 textures          76472
+           45 planes              900
+           93 vertexes           1116
+           20 nodes               480
+            7 texinfo             280
+           68 faces              1360
+           52 clipnodes           416
+           12 leafs               336
+          100 marksurfaces        200
+          318 surfedges          1272
+          160 edges               640
+            4 textures          21940
               lightdata             0
               visdata               0
-              entdata             284
+              entdata             897
 
-0.018 seconds elapsed
-Peak memory usage: 752520 (0.7M)
+0.015 seconds elapsed
+Peak memory usage: 522844 (510.6k)

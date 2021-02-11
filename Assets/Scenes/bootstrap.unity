@@ -143,7 +143,7 @@ PrefabInstance:
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
@@ -158,22 +158,22 @@ PrefabInstance:
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9238798
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.38268274
+      value: -0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
@@ -183,7 +183,7 @@ PrefabInstance:
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 45.000004
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 2179593220736303363, guid: e99841f53c1899e42814de95a84469d9,
         type: 3}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e21c0eba5a45548d60f5fc5ac805e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _testMapName: omen_map-test_1.bsp
+  _testMapName: unnamed.bsp
   _graphics: {fileID: 1338279837}
   _playerInteractionCore: {fileID: 1904818688322854, guid: 61ee32032a51f264ab192daff55116f3,
     type: 3}

@@ -6,19 +6,19 @@ Output file: unnamed.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
            36 faces
             6 brushes
-            2 entities
+            5 entities
             1 unique texnames
-           12 texinfo
+            6 texinfo
 
-*** WARNING 00: No wad or _wad key exists in the worldmodel
+Opened WAD: I:/OMEN/Assets/Tools/quake-leveldesign-starterkit/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
             6 brushes
            12 planes
 ---- CSGFaces ----
            36 brushfaces
-           41 csgfaces
-           24 mergedfaces
+           36 csgfaces
+           36 mergedfaces
 ---- SolidBSP ----
            24 split nodes
             6 solid leafs
@@ -28,59 +28,26 @@ Processing hull 0...
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          154 leaffaces
-          154 nodefaces
----- Portalize ----
-           19 vis leafs
-           19 vis clusters
-           48 vis portals
----- FillOutside ----
-           18 outleafs
----- MergeAll ----
-            6 mergefaces
----- SolidBSP ----
-            6 split nodes
-            6 solid leafs
-            1 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-           42 leaffaces
-           42 nodefaces
----- Portalize ----
-            1 vis leafs
-            1 vis clusters
-            0 vis portals
----- Tjunc ----
-           32 world edges
-          124 edge points
-           16 edges added by tjunctions
-            0 faces added by tjunctions
+           96 leaffaces
+           96 nodefaces
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
-Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
-Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
-*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote unnamed.bsp
-           28 planes              560
-           52 vertexes            624
-            6 nodes               144
+           12 planes              240
+           96 vertexes           1152
+           24 nodes               576
             6 texinfo             240
-           42 faces               840
-           48 clipnodes           384
-            2 leafs                56
-           42 marksurfaces         84
-          184 surfedges           736
-           93 edges               372
-            1 textures              8
+           96 faces              1920
+            0 clipnodes             0
+           20 leafs               560
+           96 marksurfaces        192
+          384 surfedges          1536
+          225 edges               900
+            1 textures           5488
               lightdata             0
               visdata               0
-              entdata             130
+              entdata             485
 
-0.039 seconds elapsed
-Peak memory usage: 360128 (351.7k)
+0.023 seconds elapsed
+Peak memory usage: 294040 (287.1k)
