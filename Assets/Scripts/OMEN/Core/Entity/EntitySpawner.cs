@@ -22,7 +22,7 @@ namespace OMEN.Core.Entity
         {
             Entity entity = null;
 
-            string name = instance.entity.Name;
+            string name = instance.entity.TypeName;
 
             switch (name)
             {

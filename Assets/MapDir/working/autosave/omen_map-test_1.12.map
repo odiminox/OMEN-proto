@@ -335,14 +335,110 @@
 ( 304 264 368 ) ( 303 264 368 ) ( 304 264 367 ) +0sliptop 0 0 0 1 1
 ( 704 232 496 ) ( 704 233 496 ) ( 704 232 495 ) +0sliptop 0 0 0 1 1
 }
+// brush 36
+{
+( 272 -64 -16 ) ( 272 -63 -16 ) ( 272 -64 -15 ) altar1_8 0 0 0 1 1
+( 272 -64 -16 ) ( 272 -64 -15 ) ( 273 -64 -16 ) altar1_8 0 0 0 1 1
+( 272 -64 -16 ) ( 273 -64 -16 ) ( 272 -63 -16 ) altar1_8 0 0 0 1 1
+( 304 48 0 ) ( 304 49 0 ) ( 305 48 0 ) altar1_8 0 0 0 1 1
+( 304 48 0 ) ( 305 48 0 ) ( 304 48 1 ) altar1_8 0 0 0 1 1
+( 304 48 0 ) ( 304 48 1 ) ( 304 49 0 ) altar1_8 0 0 0 1 1
+}
 }
 // entity 1
 {
-"classname" "info_player_start"
-"origin" "-152 112 16"
-"typename" "actor"
+"classname" "point_light"
+"origin" "664 80 184"
+"range" "10"
+"intensity" "10"
+"targetname" "light"
 }
 // entity 2
+{
+"classname" "point_light"
+"origin" "-16 -80 184"
+"range" "10"
+"intensity" "10"
+"targetname" "light"
+}
+// entity 3
+{
+"classname" "point_light"
+"origin" "-16 80 184"
+"range" "10"
+"intensity" "10"
+"targetname" "light"
+}
+// entity 4
+{
+"classname" "point_light"
+"origin" "640 -80 184"
+"range" "10"
+"intensity" "10"
+"targetname" "light"
+}
+// entity 5
+{
+"classname" "point_light"
+"origin" "128 -248 200"
+"targetname" "light"
+"range" "10"
+"intensity" "10"
+}
+// entity 6
+{
+"classname" "point_light"
+"origin" "128 240 200"
+"targetname" "light"
+"range" "10"
+"intensity" "10"
+}
+// entity 7
+{
+"classname" "info_player_start"
+"origin" "-152 112 16"
+}
+// entity 8
+{
+"classname" "point_light"
+"origin" "-16 -80 184"
+"range" "10"
+"intensity" "10"
+"targetname" "light"
+}
+// entity 9
+{
+"classname" "point_light"
+"origin" "-216 216 184"
+"range" "10"
+"intensity" "15"
+"targetname" "light"
+}
+// entity 10
+{
+"classname" "point_light"
+"origin" "-8 216 184"
+"range" "10"
+"intensity" "15"
+"targetname" "light"
+}
+// entity 11
+{
+"classname" "point_light"
+"origin" "-8 -216 184"
+"range" "10"
+"intensity" "15"
+"targetname" "light"
+}
+// entity 12
+{
+"classname" "point_light"
+"origin" "-216 -216 184"
+"range" "10"
+"intensity" "15"
+"targetname" "light"
+}
+// entity 13
 {
 "classname" "func_plat"
 // brush 0
@@ -354,65 +450,4 @@
 ( 376 0 8 ) ( 377 0 8 ) ( 376 0 9 ) altar1_8 0 0 0 1 1
 ( 376 16 8 ) ( 376 16 9 ) ( 376 17 8 ) altar1_8 0 0 0 1 1
 }
-}
-// entity 3
-{
-"classname" "trigger_once"
-// brush 0
-{
-( 320 -192 0 ) ( 320 -191 0 ) ( 320 -192 1 ) trigger 0 0 0 1 1
-( 320 -192 0 ) ( 320 -192 1 ) ( 321 -192 0 ) trigger 0 0 0 1 1
-( 320 -192 0 ) ( 321 -192 0 ) ( 320 -191 0 ) trigger 0 0 0 1 1
-( 352 -80 16 ) ( 352 -79 16 ) ( 353 -80 16 ) trigger 0 0 0 1 1
-( 352 -80 16 ) ( 353 -80 16 ) ( 352 -80 17 ) trigger 0 0 0 1 1
-( 352 -80 16 ) ( 352 -80 17 ) ( 352 -79 16 ) trigger 0 0 0 1 1
-}
-}
-// entity 4
-{
-"classname" "light_point"
-"origin" "-8 -216 176"
-"typename" "light"
-"intensity" "10"
-"range" "10"
-}
-// entity 5
-{
-"classname" "light_point"
-"origin" "-216 -216 176"
-"typename" "light"
-"intensity" "10"
-"range" "10"
-}
-// entity 6
-{
-"classname" "light_point"
-"origin" "-216 216 176"
-"typename" "light"
-"intensity" "10"
-"range" "10"
-}
-// entity 7
-{
-"classname" "light_point"
-"origin" "-8 216 176"
-"intensity" "10"
-"range" "10"
-"typename" "light"
-}
-// entity 8
-{
-"classname" "light_point"
-"origin" "264 -8 176"
-"intensity" "10"
-"typename" "light"
-"range" "10"
-}
-// entity 9
-{
-"classname" "light_point"
-"origin" "664 -8 176"
-"intensity" "10"
-"typename" "light"
-"range" "10"
 }

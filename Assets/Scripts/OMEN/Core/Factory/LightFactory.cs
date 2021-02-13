@@ -18,7 +18,7 @@ namespace OMEN.Core.Factory
             
             switch (className)
             {
-                case "point_light":
+                case "light_point":
                 {
                     float range = bspEntity.GetFloat("range");
                     float intensity = bspEntity.GetFloat("intensity");

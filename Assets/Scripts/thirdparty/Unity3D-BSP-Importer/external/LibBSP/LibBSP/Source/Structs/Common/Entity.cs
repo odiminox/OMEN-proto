@@ -142,6 +142,19 @@ namespace LibBSP {
 			}
 		}
 
+		public string TypeName {
+			get {
+				if (ContainsKey("typename")) {
+					return this["typename"];
+				} else {
+					return "";
+				}
+			}
+			set {
+				this["typename"] = value;
+			}
+		}
+
 		/// <summary>
 		/// Wrapper for the "classname" attribute.
 		/// </summary>
