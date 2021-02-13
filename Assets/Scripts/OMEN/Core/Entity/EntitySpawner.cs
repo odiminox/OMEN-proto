@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using BSPImporter;
@@ -24,6 +25,8 @@ namespace OMEN.Core.Entity
 
             string name = instance.entity.TypeName;
 
+            // TODO Refactor repetitive calls out to bottom.
+            // TODO Every Entity should be accounted for
             switch (name)
             {
                 case "light":
@@ -36,16 +39,17 @@ namespace OMEN.Core.Entity
                 }
                 case "actor":
                 {
-                    //entity = _actorFactory.CreateEntityFromBsp(instance.entity);
+                    entity = _actorFactory.CreateEntityFromBsp(instance.entity);
+                    entity.WorldObject = instance.gameObject;
+                    entity.id = instance.gameObject.GetInstanceID();
+                    entity.InitialiseComponents();
+                    break;
+                }
+                case "trigger":
+                {
                     break;
                 }
             }
-
-            if (null == entity)
-            {
-                //TODO throw exception
-            }
-            
         }
     }
 }

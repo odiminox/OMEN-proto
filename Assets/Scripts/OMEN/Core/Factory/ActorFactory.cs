@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using OMEN.Core.Entity.Actor;
 using OMEN.Factory;
+using UnityEngine;
 
 namespace OMEN.Core.Factory
 {
@@ -16,6 +18,10 @@ namespace OMEN.Core.Factory
             {
                 case "info_player_start":
                 {
+                    var position = bspEntity.GetVector("origin");
+                    var angle = bspEntity.GetInt("angle");
+
+                    createdEntity = CreatePlayerInfoStart(angle, position);
                     break;
                 }
             }
@@ -28,9 +34,16 @@ namespace OMEN.Core.Factory
             throw new System.NotImplementedException();
         }
 
-        private Entity.Entity CreatePlayerInfoStart(float angle)
+        private Entity.Entity CreatePlayerInfoStart(float angle, Vector4 origin)
         {
-            return null;
+
+            ActorInfoPlayerStart entity = new ActorInfoPlayerStart()
+            {
+                Angle = angle,
+                Origin = origin
+            };
+            
+            return entity;
         }
     }
 }

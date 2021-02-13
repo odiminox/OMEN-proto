@@ -37,19 +37,19 @@ Processing hull 2...
 ---- WriteBSPFile ----
 Wrote ../../../../../Game/maps/unnamed.bsp
           217 planes             4340
-          644 vertexes           7728
+          652 vertexes           7824
           274 nodes              6576
            22 texinfo             880
-          508 faces             10160
+          512 faces             10240
           494 clipnodes          3952
           180 leafs              5040
-          615 marksurfaces       1230
-         2007 surfedges          8028
-         1316 edges              5264
+          619 marksurfaces       1238
+         2031 surfedges          8124
+         1328 edges              5312
             7 textures          38392
               lightdata             0
               visdata               0
-              entdata             942
+              entdata            1028
 
 0.023 seconds elapsed
-Peak memory usage: 2347770 (2.2M)
+Peak memory usage: 2354798 (2.2M)

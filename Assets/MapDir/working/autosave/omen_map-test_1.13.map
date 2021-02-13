@@ -339,9 +339,8 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "152 -32 96"
+"origin" "-152 112 16"
 "typename" "actor"
-"angle" "0"
 }
 // entity 2
 {

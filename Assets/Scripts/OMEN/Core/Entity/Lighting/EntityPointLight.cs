@@ -9,8 +9,10 @@ namespace OMEN.Core.Entity.Lighting
 
         public override void InitialiseComponents()
         {
+            _lightType = LightType.Point;
+            
             Light light = WorldObject.AddComponent<Light>();
-            light.type = LightType.Point;
+            light.type = _lightType;
             light.range = Range;
             light.intensity = Intensity;
             light.shadows = LightShadows.Soft;

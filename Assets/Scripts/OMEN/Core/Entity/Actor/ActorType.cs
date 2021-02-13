@@ -3,6 +3,5 @@
     public enum ActorType
     {
         InfoPlayerStart = 0,
-        SecondType
     }
 }
