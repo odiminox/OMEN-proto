@@ -36,8 +36,7 @@ namespace OMEN.Core.Factory
 
         private Entity.Entity CreatePlayerInfoStart(float angle, Vector4 origin)
         {
-
-            ActorInfoPlayerStart entity = new ActorInfoPlayerStart()
+            EntityInfoPlayerStart entity = new EntityInfoPlayerStart()
             {
                 Angle = angle,
                 Origin = origin

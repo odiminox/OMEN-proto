@@ -21,7 +21,7 @@ namespace OMEN.Core.Entity.Actor
         }
     }
     
-    public class ActorInfoPlayerStart : EntityActor
+    public class EntityInfoPlayerStart : EntityActor
     {
         public float Angle;
         public Vector4 Origin;
@@ -42,7 +42,9 @@ namespace OMEN.Core.Entity.Actor
             var convertedUnityPos = quakePos.SwizzleYZ().ScaleInch2Meter();
             WorldObject.transform.position = convertedUnityPos;
 
-            //playerStart.transform.localEulerAngles = Origin;
+            // TODO set player rotation
+            var rot = playerStart.transform.localEulerAngles;
+            //playerStart.transform.localEulerAngles = new Vector3(rot.x, Angle, rot.y);
         }
     }
 }
